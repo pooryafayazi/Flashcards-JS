@@ -27,7 +27,7 @@ Create cards, toggle between **question/answer**, navigate **previous/next**, **
 ## Screenshots
 
 ### 1) Answer view (with link to show the question)
-![Answer view](./img/Screenshot%202025-09-18%20182119.png)
+![Answer view](./img/05.png)
 
 **What you see**
 - The current card shows the **answer**.
@@ -37,7 +37,7 @@ Create cards, toggle between **question/answer**, navigate **previous/next**, **
 ---
 
 ### 2) Question view (with link to show the answer)
-![Question view](./img/Screenshot%202025-09-18%20182105.png)
+![Question view](./img/04.png)
 
 **What you see**
 - The current card shows the **question**.
@@ -46,7 +46,7 @@ Create cards, toggle between **question/answer**, navigate **previous/next**, **
 ---
 
 ### 3) Edit mode (prefilled inputs)
-![Edit mode – prefilled](./img/Screenshot%202025-09-18%20182054.png)
+![Edit mode – prefilled](./img/03.png)
 
 **What you see**
 - Existing question/answer are loaded into inputs.
@@ -55,7 +55,7 @@ Create cards, toggle between **question/answer**, navigate **previous/next**, **
 ---
 
 ### 4) Add mode (empty form, Save disabled)
-![Add mode – empty](./img/Screenshot%202025-09-18%20182010.png)
+![Add mode – empty](./img/02.png)
 
 **What you see**
 - Empty inputs for **question** and **answer**.
@@ -64,7 +64,7 @@ Create cards, toggle between **question/answer**, navigate **previous/next**, **
 ---
 
 ### 5) Empty state (no cards)
-![Empty state](./img/Screenshot%202025-09-18%20182000.png)
+![Empty state](./img/01.png)
 
 **What you see**
 - Message: **No cards available!**
