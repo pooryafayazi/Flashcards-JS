@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex05-JS</title>
+
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+    <script src="./ex05-JS.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="addcard"> <button onclick="addCard()">Add Card</button>
+        </div>
+
+        <div class="card-wrapper" id="currentcard">
+            <div id="previouscard"><a href="#" id="prevLink">Previous Card</a></div>
+
+            <div id="cards">
+                <input type="text" id="question" placeholder="Enter question" hidden />
+                <input type="text" id="answer" placeholder="Enter answer" hidden />
+                <p id="cardcontain"></p>
+
+                <div id="switch">
+                    <a href="#" id="toggleLink">show answer</a>
+                </div>
+
+                <br />
+                <div id="buttons">
+                    <button id="editcard" onclick="editCard()">Edit</button>
+                    <button id="deletecard" onclick="deleteCard()">Delete</button>
+                    <button id="savecard" onclick="saveCard()" hidden>Save Card</button>
+                    <button id="cancel" onclick="cancel()" hidden>Cancel</button>
+                </div>
+            </div>
+            <div id="nextcard"><a href="#" id="nextLink">Next Card</a></div>
+        </div>
+</body>
+
+</html>

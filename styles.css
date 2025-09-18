@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cards {
+    border: 3px solid green;
+    border-radius: 14px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#switch {
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#addcard {
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#previouscard, #nextcard {
+    width: 100px;
+}
+
+#cards input {
+    width: 80%; 
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#savecard:disabled {
+    background-color: grey;
+    border-radius: 3px;
+    color: rgb(184, 185, 185);
+}
