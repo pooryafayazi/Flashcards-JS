@@ -73,12 +73,12 @@ Create cards, toggle between **question/answer**, navigate **previous/next**, **
 ---
 
 ## Folder Structure
-  ├── ex05-JS.html
-  ├── ex05-JS.js
-  ├── styles.css
-  └── img/
-    ├── 01.png
-    ├── 02.png
-    ├── 03.png
-    ├── 04.png
-    └── 05.png
+    ├── ex05-JS.html
+    ├── ex05-JS.js
+    ├── styles.css
+    └── img/
+      ├── 01.png
+      ├── 02.png
+      ├── 03.png
+      ├── 04.png
+      └── 05.png
